@@ -10,7 +10,6 @@ Sau khi thêm, cập nhật lại project.
 Sau đó sử dụng thư viện như ví dụ sau:
 # CODE:
 {
-
   import java.util.HashMap;
   import java.util.Map;
 
@@ -22,6 +21,7 @@ Sau đó sử dụng thư viện như ví dụ sau:
   import org.kingdark.api.ApiVersion;
   import org.kingdark.api.exception.ApiCallbackNotFoundException;
   import org.kingdark.api.exception.ApiException;
+  
   import org.kingdark.tnu.TnuApplication;
 
   public class run implements ApiConnectionCallback {
@@ -90,5 +90,4 @@ Sau đó sử dụng thư viện như ví dụ sau:
       System.err.println("Loi Server => " + response.getRawBody()); // In ra thông tin lỗi
     }
   }
-
 }
